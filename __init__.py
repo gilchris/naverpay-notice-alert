@@ -4,8 +4,8 @@ import requests
 
 from naverpay_notice_parser import get_notice_list
 
-filePath = 'data.json'
-webhookUrl = 'https://discordapp.com/api/webhooks/837751119853518879/ErqD2nn_5cF9TLfdeQh3Kj__twWrftjKW5k8bVT_e_nXyh5M42tai9Qvu3tsjTaYtLt5'
+filePath = '/data.json'
+webhookUrl = ''
 
 oldArticles = []
 currentArticles = get_notice_list()
